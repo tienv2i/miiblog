@@ -6,11 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    MODE = os.getenv('MODE', 'development')
-    if MODE == 'development': 
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'miiblog.settings.dev')
-    else:
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'miiblog.settings.prod')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'miiblog.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

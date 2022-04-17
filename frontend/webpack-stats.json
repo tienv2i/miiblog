@@ -1,0 +1,27 @@
+{
+  "status": "done",
+  "assets": {
+    "main-d5d7a9ad12cc66a66cf1.css": {
+      "name": "main-d5d7a9ad12cc66a66cf1.css",
+      "path": "/home/huynhat/miiblog/frontend/dist/main-d5d7a9ad12cc66a66cf1.css",
+      "publicPath": "/static/main-d5d7a9ad12cc66a66cf1.css"
+    },
+    "main-d5d7a9ad12cc66a66cf1.js": {
+      "name": "main-d5d7a9ad12cc66a66cf1.js",
+      "path": "/home/huynhat/miiblog/frontend/dist/main-d5d7a9ad12cc66a66cf1.js",
+      "publicPath": "/static/main-d5d7a9ad12cc66a66cf1.js"
+    },
+    "index.html": {
+      "name": "index.html",
+      "path": "/home/huynhat/miiblog/frontend/dist/index.html",
+      "publicPath": "/static/index.html"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main-d5d7a9ad12cc66a66cf1.css",
+      "main-d5d7a9ad12cc66a66cf1.js"
+    ]
+  },
+  "publicPath": "/static/"
+}
